@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interest calculator Nidhi</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="container">
+      <button   id= "displayDateTime" >
+      </button>
+      <form method="post" action="" name="contact-form">
+      <div class="inp-wrapper">
+        <div class="date-wrapper">
+          <label for="date-1">Loan Date</label>
+          <input type="date" name="Loan-date" id="date-1" />
+        </div>
+        <div class="date-wrapper">
+          <label for="date-2">Interest Paid Upto</label>
+          <input type="date"name="int-paid-upto" id="date-2" />
+        </div>
+        <div class="date-wrapper">
+          <label for="date-3">Interest Paying Upto</label>
+          <input type="date" name="int-paying-upto" id="date-3" />
+        </div>
+      
+
+        <div class="amount-wrapper" >
+          <label for="amount">Loan Amount</label>
+          <input type="number" name="loan-amount" id="amount" />
+        </div>
+     
+      </div>
+      
+      <br>
+      <button id="submit">Calculate</button>
+      <div id="output"></div>
+    
+      <div id="output2">PLEASE CLICK CALCULATE BUTTON</div>
+      <br>
+      
+        <div class="cont">  
+      <input type="button" value="CLEAR" onclick="window.location.reload()">  </input>     
+      </div>
+<h6>V 4.0</h6>
+</form>
+    </div> 
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="Google Sheet.js"></script>
+  </body>
+</html>
